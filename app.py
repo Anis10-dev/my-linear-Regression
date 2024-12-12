@@ -44,7 +44,7 @@ def main():
         st.success(f'Predicted Yearly Amount Spent: **${prediction[0]:.2f}**')
 
     # Display a fancy image
-    st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNcrge_zIuHiXLJB8PdpjuhrkrroMVXCgQA&s', use_container_width =True)
+    # st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNcrge_zIuHiXLJB8PdpjuhrkrroMVXCgQA&s', use_container_width =True)
 
 if __name__ == '__main__':
     main()
